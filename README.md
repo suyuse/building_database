@@ -4,4 +4,4 @@
 
 ## Логическая модель
 Всего реализовано 8 связанных таблиц. Ниже прикреплено визуальное представление проекта.
-<img width="2995" height="1763" alt="2026-08-14-094958" src="https://github.com/user-attachments/assets/7bd572d4-ecea-43f1-bee8-b6120be890dd" />
+<img width="2959" height="1728" alt="logical_model" src="https://github.com/user-attachments/assets/671ba0dd-a2a6-4fb9-87d3-02a4547bfd7a" />
