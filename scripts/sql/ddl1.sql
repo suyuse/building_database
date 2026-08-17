@@ -1,6 +1,6 @@
 create table developers (
 	developer_id integer primary key,
-	name text not null unique,
+	name text not null,
 	ogrn bigint not null unique,
 	inn bigint not null unique
 );
