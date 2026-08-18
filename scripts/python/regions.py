@@ -9,4 +9,6 @@ regions = regions.rename(columns={
     'parent_object_code': 'oktmo'
 })
 
+region_ds = pd.read_csv('building_database/tables/region_districts.csv')
+regions = regions.merge(region_ds[['oktmo', 'district_id']], how='left', left_on='oktmo', right_on='oktmo')
 regions.to_csv('regions.csv', index=False)
