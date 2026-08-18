@@ -11,7 +11,7 @@ monthly_stats = monthly_stats.rename(columns={'month_dt': 'month_date', 'elem_pa
 monthly_stats['stats_id'] = monthly_stats.index + 1
 
 apt = monthly_stats.melt(
-    id_vars=['stats_id'], value_vars=['elem_1k_cnt', 'elem_2k_cnt', 'elem_3k_cnt', 'elem_4k_cnt'], var_name='type', value_name='count'
+    id_vars=['stats_id'], value_vars=['elem_1k_cnt', 'elem_2k_cnt', 'elem_3k_cnt', 'elem_4k_cnt'], var_name='type', value_name='apt_count'
 )
 apt['type'] = apt['type'].map({
     'elem_1k_cnt': '1к', 'elem_2k_cnt': '2к', 'elem_3k_cnt': '3к', 'elem_4k_cnt': '4к+'
