@@ -4,8 +4,7 @@
 
 ## Логическая модель
 Всего реализовано 8 связанных таблиц. Ниже прикреплено визуальное представление проекта.
-![alt text](docs/logical_model.png)
-
+<img width="2380" height="1390" alt="logical_model" src="https://github.com/user-attachments/assets/8d45e25c-50fb-4ec6-9df4-cc081e33dd6c" />
 
 ## Описание таблиц
 
